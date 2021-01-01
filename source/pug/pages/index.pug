@@ -1,0 +1,15 @@
+extends ../base/html.pug
+
+block body
+  body.page
+    div(style="display: none;")
+      include ../../img/svg/sprite_auto.svg
+
+    header.page-header(style="background-image: url(img/bg/header-bg.jpg);")
+    main.page-main
+      +b.SECTION.guitar
+        +e.inner.container
+          +e.neck
+            +e.string
+              +e.fret
+    footer.page-footer

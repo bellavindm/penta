@@ -1,0 +1,26 @@
+// Vendor
+//---------------------------------
+
+@import "vendor/normalize";
+@import "vendor/swiper";
+
+// Global
+//---------------------------------
+
+@import "variables";
+@import "mixins";
+@import "global/fonts";
+@import "global/reboot";
+@import "global/utils";
+@import "global/layout";
+
+// UI-kit
+//---------------------------------
+
+// Blocks
+//---------------------------------
+@import "blocks/guitar";
+
+
+// Animation
+//---------------------------------
